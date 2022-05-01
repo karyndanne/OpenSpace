@@ -1,8 +1,7 @@
 .body {
     background-image: url("/OpenSpace/images/");
-    /* background-color: #FAFAFA; */
-    background-repeat: no-repeat ;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .buttonPrimary {
@@ -111,13 +110,14 @@
     margin-left:auto;
     margin-right:auto;
     display: flex;
+    flex-direction: column;
 }
 
-.weDo {
+.weDoContainer {
     background-color: #f6f6f8;
-    width: 600px;
+    max-width: 600px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     text-align: right;
     
