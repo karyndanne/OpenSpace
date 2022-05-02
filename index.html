@@ -17,10 +17,9 @@
     <title>OpenSpace</title>
 
 </head>
-
 <body>
 <section class="body">
-<!-- NavBar -->
+
   <!--  <header class="navBar"> 
         <div class="navigation">
             <img class="logo" src="/OpenSpace/images/logoBWvertical.jpg">
@@ -33,39 +32,46 @@
         </div>
     </header> -->
 
+    <!-- NavBar -->
     <nav class="navBar">
         <div class="navBarLogo">
-            <a href="#"><img src="/images/logoNavBar.png" alt="nav bar logo"></a>
+            <a class="navBarLogoImg" href="#"><img src="/images/logoNavBar.png" alt="nav bar logo"></a>
         </div>
         <div class="navBarIcons">
             <ul>
-                <a class="navButton" href="#">Become A Host<span class="sr-only"></span></a>
+                <a class="navButton" id="navButtonHost" href="#">Become A Host<span class="sr-only"></span></a>
             </ul>
             <ul>
-                <a class="navButton" href="#">Browse</a>
+                <a class="navButton" id="navButtonBrowse" href="#">Browse</a>
             </ul>
             <ul>
-                <a class="navButton" href="#">My Likes</a>
+                <a class="navButton" id="navButtonMyLikes" href="#">My Lists</a>
             </ul>
             <ul>
-                <a class="navButton" href="#">About</a>
+                <a class="navButton" id="navButtonAbout" href="#">About</a>
             </ul>
       </div>  
     </nav>
 
-<!-- Hero Section -->
-    <Section class="hero">
-        <div class="heroText">
-            <h1 id="heroText">Find your perfect space</h1>
-            <p id="heroBody">Answer some questions and we'll show you your matches.</p>
-            <button class="buttonPrimary">Get Started</button>
+    <!-- Hero Section -->
+    <Section class="heroSection">
+        <div class="hero">
+            <div class="heroText">
+                <h1 id="heroText">Find your perfect space</h1>
+                <p id="heroBody">Answer some questions and we'll show you your matches.</p>
+                <button class="buttonPrimary">Get Started</button>
+            </div>
+            <div class="heroImg">
+                <img src="/images/heroImg.png" alt="Hero Image">
+            </div>
         </div>
-        <div class="heroImg">
-            <img src="/images/heroImg.png" alt="Hero Image">
+        <div class="searchBarHome">
+            <input id="searchBar" type="text" placeholder="Location | Date | Budget">
         </div>
+        <img src="/images/searchBar.svg" alt="searchBar">
     </Section>
-<!--
-<section class="hero">
+
+<!--<section class="hero">
     <div class="heroContent">
         <h1>Personalize your Experience</h1>
         <p>Answer some questions and we'll show you your matches.</p>
@@ -73,32 +79,67 @@
     </div>
 </section>-->
 
-<section class="weDo">
-        <h1>What We Do</h1>
-        <div class="weDoContainer">
-            <div class="weDoImage">
-                <div>
-            <img src="/OpenSpace/images/Group 664.svg">
-            <h2>Personalize</h2>
-            <p>Personalize your search</p>
-                </div>
-                <div>
-            <img src="/OpenSpace/images/Group 665.svg">
-            <h2>Comparison</h2>
-            <p>Compare your matches</p>
-                </div>
-                <div>
-            <img src="/OpenSpace/images/Group 666.svg">
-            <h2>Book</h2>
-            <p>Book your venue</p>
-                </div>
+    <!-- What We Do  -->
+    <section class="whatWeDo">
+        <div class="whatWeDoHeader">
+            <h1 id="whatWeDoHeaderText">What We Do</h1>
         </div>
+        <div class="whatWeDoDivs">
+            <div class="WWDDivs" id="personalize">
+                <img class="WWDIcon" src="/images/personalize.png" alt="personalize icon">
+                <h2 class="WWDHead">Personalize</h2>
+                <p class="WWDBody">Personalize your search</p>
+            </div>
+            <div class="WWDDivs" id="comparison">
+                <img class="WWDIcon" src="/images/compare.png" alt="comparison icon">
+                <h2 class="WWDHead">Comparison</h2>
+                <p class="WWDBody">Compare your matches</p>
+            </div>
+            <div class="WWDDivs" id="book">
+                <img class="WWDIcon" src="/images/book.png" alt="book icon">
+                <h2 class="WWDHead">Book</h2>
+                <p class="WWDBody">Book your venue</p>
+            </div>
+        </div>
+    </section>
+
+    <!--<section class="weDo">
+            <h1>What We Do</h1>
+            <div class="weDoContainer">
+                <div class="weDoImage">
+                    <div>
+                <img src="/OpenSpace/images/Group 664.svg">
+                <h2>Personalize</h2>
+                <p>Personalize your search</p>
+                    </div>
+                    <div>
+                <img src="/OpenSpace/images/Group 665.svg">
+                <h2>Comparison</h2>
+                <p>Compare your matches</p>
+                    </div>
+                    <div>
+                <img src="/OpenSpace/images/Group 666.svg">
+                <h2>Book</h2>
+                <p>Book your venue</p>
+                    </div>
+            </div>
+        </div>
+    </section>-->
+
+ <!-- Feature Spaces -->
+<section class="featuredSpaces">
+    <div class="featSpacHead">
+        <h1 id="featSpacHeadText">Featured Spaces</h1>
+    </div>
+    <div class="featSpacImg">
+        <img src="/images/hompageFeatures.svg" alt="Featured Spaces Image">
+    </div>
+    <div class="featSpacButton">
+        <button class="buttonSecondary">See Spaces</button>
     </div>
 </section>
 
-
- 
-<section class="featuredSpaces">
+<!--<section class="featuredSpaces">
     <h1>Featured Spaces</h1>
     <div class="spaces">
     <div class="featureImages">
@@ -112,9 +153,27 @@
     </div>
     </div>
     <div class="button"> Browse More </div>
+</section> -->
+
+<!-- Apps -->
+<section class="apps">
+    <div class="appsImage">
+        <img src="/images/everywhereAllTheTime.svg" alt="apps">
+    </div>
+    <div class="appsText">
+        <div id="appsTextHead">
+            <h1 id="ATHText">Anytime Anywhere</h1>
+        </div>
+        <div id="appsTextBody">
+            <p id="ATHBody">OpenSpace helps match people with spaces. Use the app to help you with comparing options and providing transparency of information. Personalizing the venue search and providing visual assistance help you imagine yourself in the space. One way to walk through a space  is through our 360 videos that we love watching using our app in Virtual Realty.</p>
+        </div>
+        <div id="appsTextButtons">
+            <button class="buttonPrimary">Apple Store</button>
+            <button class="buttonPrimary">Google Play</button>
+        </div>
+    </div>
 </section>
-
-
+<!--
 <section class="apps">
     <h1>Anytime Anywhere</h1>
             <div class="sampleContent">
@@ -127,8 +186,29 @@
             <div class="button">Apple Store</div> 
 
 </section>
+-->
 
-
+<!-- Customer Reviews-->
+<section class="customerReviews">
+    <div class="reviewCard">
+        <div class="reviewPicture">
+            <img src="/images/reviewPicture.png" alt="Review Picture">
+        </div>
+        <div class="reviewBody">
+            <div class="reviewName">
+                <h4 id="RNHead">Elise Matthews</h4>
+                <img id="RNHImg" src="/images/reviewStars.png" alt="reviewStars">
+            </div>
+            <div class="reviewBody">
+                <p id="RBBody">“An absolute delight to work with the owners and staff! They made everything so easy and had a lot of options for us to make our event special. This venue has a great vibe. So beautiful and unique that not a lot of additional decor is needed, but it is easy to add whatever you want and make it your own. Our guests were charmed for sure. I would definitely book here again.”</p>
+            </div>
+        </div>
+        <div class="reviewDots">
+            <img src="/images/reviewDots.png" alt="Review Dots">
+        </div>
+    </div>
+</section>
+<!--
 <section class="customerReviews">
     <h1> Customer Reviews</h1>
     <div class="carousel">
@@ -153,8 +233,36 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, rerum. Dolorem minima corrupti quam tempore et aperiam, numquam quia asperiores dolore! Voluptatum optio consectetur error officiis perspiciatis ex, dolorum quos!</p>
                 </div>
         </div>
-</section>
+</section>-->
+ <!-- Footer HTML -->
+<footer class="footer">
+    <div class="footerLeft footerDiv">
+        <img id="footerLogo" src="/images/logoNavBar.png" alt="Logo Footer">
+        <p id="footerBody">OpenSpace helps match people with venues to host functions through comparing options and providing transparency of information.</p>
+    </div>
+    <div class="footerIcons footerDiv">
+        <ul>
+            <a class="navButtonFooter" href="#">About<span class="sr-only"></span></a>
+        </ul>
+        <ul>
+            <a class="navButtonFooter" href="#">Browse</a>
+        </ul>
+        <ul>
+            <a class="navButtonFooter" href="#">My Lists</a>
+        </ul>
+        <ul>
+            <a class="navButtonFooter" href="#">Become a Host</a>
+        </ul>
+    </div>  
+    <div class="footerRight footerDiv">
+        <h4 id="FRHead">Contact</h4>
+        <h5 id="FRAddress">123 Peach Street, Atlanta Georgia</h5>
+        <input id="searchBar" type="text" placeholder="Your Email">
+        <img src="/images/socialIcons.png" alt="Social Icons">
+    </div>
+</footer>
 
+<!--
 <footer> 
     <div class="footerLogo">
     <img class="logo" src="/OpenSpace/images/logoBWvertical.jpg">
@@ -178,7 +286,7 @@
 </body>
 
 </html>
-
+-->
 
 
 
