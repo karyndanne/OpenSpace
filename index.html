@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <title>OpenSpace</title>
 
 </head>
 
 <body>
-
-<header> 
+<section class="body">
+<!-- NavBar -->
+  <!--  <header class="navBar"> 
         <div class="navigation">
             <img class="logo" src="/OpenSpace/images/logoBWvertical.jpg">
         <div class="navButtons">
@@ -23,17 +31,47 @@
             <img class="search" src="/OpenSpace/images/search.svg">
         </div>
         </div>
-</header>
+    </header> -->
 
-<section class="body">
+    <nav class="navBar">
+        <div class="navBarLogo">
+            <a href="#"><img src="/images/logoNavBar.png" alt="nav bar logo"></a>
+        </div>
+        <div class="navBarIcons">
+            <ul>
+                <a class="navButton" href="#">Become A Host<span class="sr-only"></span></a>
+            </ul>
+            <ul>
+                <a class="navButton" href="#">Browse</a>
+            </ul>
+            <ul>
+                <a class="navButton" href="#">My Likes</a>
+            </ul>
+            <ul>
+                <a class="navButton" href="#">About</a>
+            </ul>
+      </div>  
+    </nav>
 
+<!-- Hero Section -->
+    <Section class="hero">
+        <div class="heroText">
+            <h1 id="heroText">Find your perfect space</h1>
+            <p id="heroBody">Answer some questions and we'll show you your matches.</p>
+            <button class="buttonPrimary">Get Started</button>
+        </div>
+        <div class="heroImg">
+            <img src="/images/heroImg.png" alt="Hero Image">
+        </div>
+    </Section>
+<!--
 <section class="hero">
     <div class="heroContent">
         <h1>Personalize your Experience</h1>
-        <p>Subtitle</p>
-        <div class="heroPic"><img></div>
+        <p>Answer some questions and we'll show you your matches.</p>
+        <button></button>
     </div>
-</section>
+</section>-->
 
 <section class="weDo">
         <h1>What We Do</h1>
@@ -133,6 +171,7 @@
             <img src="/images/attach.png">
         </div>
     </div>
+</section>
 </section>
 </footer>
 
