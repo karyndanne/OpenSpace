@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <title>OpenSpace</title>
 
-
-
-
 </head>
-
 <body>
+<section class="body">
 
-<header> 
+  <!--  <header class="navBar"> 
         <div class="navigation">
             <img class="logo" src="/OpenSpace/images/logoBWvertical.jpg">
         <div class="navButtons">
@@ -26,44 +30,132 @@
             <img class="search" src="/OpenSpace/images/search.svg">
         </div>
         </div>
-</header>
+    </header> -->
 
-<section class="body">
+    <!-- NavBar -->
+    <nav class="navBar">
+        <div class="navBarLogo">
+            <a class="navBarLogoImg" href="#"><img src="/images/logoNavBar.png" alt="nav bar logo"></a>
+        </div>
+        <div class="navBarIcons">
+            <ul>
+                <a class="navButton" id="navButtonHost" href="#">Become A Host<span class="sr-only"></span></a>
+            </ul>
+            <ul>
+                <a class="navButton" id="navButtonBrowse" href="#">Browse</a>
+            </ul>
+            <ul>
+                <a class="navButton" id="navButtonMyLikes" href="#">My Lists</a>
+            </ul>
+            <ul>
+                <a class="navButton" id="navButtonAbout" href="#">About</a>
+            </ul>
+      </div>  
+    </nav>
 
-<section class="hero">
+    <!-- Hero Section -->
+    <Section class="heroSection">
+        <div class="hero">
+            <div class="heroText">
+                <h1 id="heroText">Find your perfect space</h1>
+                <p id="heroBody">Answer some questions and we'll show you your matches.</p>
+                <button class="buttonPrimary">Get Started</button>
+            </div>
+            <div class="heroImg">
+                <img src="/images/heroImg.png" alt="Hero Image">
+            </div>
+        </div>
+        <!-- search bar -->
+        <div class="searchBarHome">
+            <form action="" method="get">
+                <div class="product-search">
+                    <div class="search-element">
+                      <label class="search-label">Location</label>
+                      <input class="search-input" type="text" autocomplete="on" placeholder="Where's the party?" name="query">
+                    </div>
+                    <div class="search-element">
+                      <label class="search-label">Dates</label>
+                      <input class="search-input" type="text" placeholder="When is it?" class="" autocomplete="on" name="location">
+                    </div>
+                    <div class="search-element">
+                        <label class="search-label">Budget</label>
+                        <input class="search-input" type="text" placeholder="What's our budget?" class="" autocomplete="on" name="location">
+                      </div>
+                    <a type="submit" class="search-button"><img src="/images/search.svg" alt="Search Icon"></a>
+                </div>
+              </form>
+        </div>
+    </Section>
+
+<!--<section class="hero">
     <div class="heroContent">
         <h1>Personalize your Experience</h1>
-        <p>Subtitle</p>
-        <div class="heroPic"><img></div>
+        <p>Answer some questions and we'll show you your matches.</p>
+        <button></button>
     </div>
-</section>
+</section>-->
 
-<section class="weDo">
-        <h1>What We Do</h1>
-        <div class="weDoContainer">
-            <div class="weDoImage">
-                <div>
-            <img src="/OpenSpace/images/Group 664.svg">
-            <h2>Personalize</h2>
-            <p>Personalize your search</p>
-                </div>
-                <div>
-            <img src="/OpenSpace/images/Group 665.svg">
-            <h2>Comparison</h2>
-            <p>Compare your matches</p>
-                </div>
-                <div>
-            <img src="/OpenSpace/images/Group 666.svg">
-            <h2>Book</h2>
-            <p>Book your venue</p>
-                </div>
+    <!-- What We Do  -->
+    <section class="whatWeDo">
+        <div class="whatWeDoHeader">
+            <h1 id="whatWeDoHeaderText">What We Do</h1>
         </div>
+        <div class="whatWeDoDivs">
+            <div class="WWDDivs" id="personalize">
+                <img class="WWDIcon" src="/images/compare.SVG.svg" alt="personalize icon">
+                <h2 class="WWDHead">Personalize</h2>
+                <p class="WWDBody">Personalize your search</p>
+            </div>
+            <div class="WWDDivs" id="comparison">
+                <img class="WWDIcon" src="/images/personalize.SVG.svg" alt="comparison icon">
+                <h2 class="WWDHead">Comparison</h2>
+                <p class="WWDBody">Compare your matches</p>
+            </div>
+            <div class="WWDDivs" id="book">
+                <img class="WWDIcon" src="/images/book.SVG.svg" alt="book icon">
+                <h2 class="WWDHead">Book</h2>
+                <p class="WWDBody">Book your venue</p>
+            </div>
+        </div>
+    </section>
+
+    <!--<section class="weDo">
+            <h1>What We Do</h1>
+            <div class="weDoContainer">
+                <div class="weDoImage">
+                    <div>
+                <img src="/OpenSpace/images/Group 664.svg">
+                <h2>Personalize</h2>
+                <p>Personalize your search</p>
+                    </div>
+                    <div>
+                <img src="/OpenSpace/images/Group 665.svg">
+                <h2>Comparison</h2>
+                <p>Compare your matches</p>
+                    </div>
+                    <div>
+                <img src="/OpenSpace/images/Group 666.svg">
+                <h2>Book</h2>
+                <p>Book your venue</p>
+                    </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Feature Spaces -->
+<section class="featuredSpaces">
+    <div class="featSpacHead">
+        <h1 id="featSpacHeadText">Featured Spaces</h1>
+    </div>
+    <div class="featSpacImg">
+        <img src="/images/hompageFeatures.svg" alt="Featured Spaces Image">
+    </div>
+    <div class="featSpacButton">
+        <button class="buttonSecondary">See Spaces</button>
     </div>
 </section>
 
-
- 
-<section class="featuredSpaces">
+<!--<section class="featuredSpaces">
     <h1>Featured Spaces</h1>
     <div class="spaces">
     <div class="featureImages">
@@ -77,9 +169,27 @@
     </div>
     </div>
     <div class="button"> Browse More </div>
+</section> -->
+
+    <!-- Apps -->
+<section class="apps">
+    <div class="appsImage">
+        <img src="/images/everywhereAllTheTime.svg" alt="apps">
+    </div>
+    <div class="appsText">
+        <div id="appsTextHead">
+            <h1 id="ATHText">Anytime Anywhere</h1>
+        </div>
+        <div id="appsTextBody">
+            <p id="ATHBody">OpenSpace helps match people with spaces. Use the app to help you with comparing options and providing transparency of information. Personalizing the venue search and providing visual assistance help you imagine yourself in the space. One way to walk through a space  is through our 360 videos that we love watching using our app in Virtual Realty.</p>
+        </div>
+        <div id="appsTextButtons">
+            <button class="buttonPrimary">Apple Store</button>
+            <button class="buttonPrimary">Google Play</button>
+        </div>
+    </div>
 </section>
-
-
+<!--
 <section class="apps">
     <h1>Anytime Anywhere</h1>
             <div class="sampleContent">
@@ -92,8 +202,29 @@
             <div class="button">Apple Store</div> 
 
 </section>
+-->
 
-
+    <!-- Customer Reviews-->
+<section class="customerReviews">
+    <div class="reviewCard">
+        <div class="reviewPicture">
+            <img src="/images/reviewPicture.png" alt="Review Picture">
+        </div>
+        <div class="reviewBody">
+            <div class="reviewName">
+                <h4 id="RNHead">Elise Matthews</h4>
+                <img id="RNHImg" src="/images/reviewStars.png" alt="reviewStars">
+            </div>
+            <div class="reviewBody">
+                <p id="RBBody">“An absolute delight to work with the owners and staff! They made everything so easy and had a lot of options for us to make our event special. This venue has a great vibe. So beautiful and unique that not a lot of additional decor is needed, but it is easy to add whatever you want and make it your own. Our guests were charmed for sure. I would definitely book here again.”</p>
+            </div>
+        </div>
+        <div class="reviewDots">
+            <img src="/images/reviewDots.png" alt="Review Dots">
+        </div>
+    </div>
+</section>
+<!--
 <section class="customerReviews">
     <h1> Customer Reviews</h1>
     <div class="carousel">
@@ -118,8 +249,50 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, rerum. Dolorem minima corrupti quam tempore et aperiam, numquam quia asperiores dolore! Voluptatum optio consectetur error officiis perspiciatis ex, dolorum quos!</p>
                 </div>
         </div>
-</section>
+</section>-->
+    <!-- Footer HTML -->
+<footer class="footer">
+    <div class="footerLeft footerDiv">
+        <img id="footerLogo" src="/images/logoNavBar.png" alt="Logo Footer">
+        <p id="footerBody">OpenSpace helps match people with venues to host functions through comparing options and providing transparency of information.</p>
+    </div>
+    <div class="footerIcons footerDiv">
+        <ul>
+            <a class="navButtonFooter" href="#">About<span class="sr-only"></span></a>
+        </ul>
+        <ul>
+            <a class="navButtonFooter" href="#">Browse</a>
+        </ul>
+        <ul>
+            <a class="navButtonFooter" href="#">My Lists</a>
+        </ul>
+        <ul>
+            <a class="navButtonFooter" href="#">Become a Host</a>
+        </ul>
+    </div>  
+    <div class="footerRight footerDiv">
+        <h4 id="FRHead">Contact</h4>
+        <h5 id="FRAddress">123 Peach Street, Atlanta Georgia</h5>
+        <input id="searchBar" type="text" placeholder="Your Email">
+        <div class="socialIcons">
+            <img class="socialIconsIndv" src="/images/facebookLogo.svg" alt="Facebook logo">
+            <img class="socialIconsIndv" src="/images/twitterLogo.svg" alt="Twitter logo">
+            <img class="socialIconsIndv" src="/images/linkedinLogo.svg" alt="Linkedin logo">
+            <img class="socialIconsIndv" src="/images/youtubeLogo.svg" alt="Youtube logo">
+            <img class="socialIconsIndv" src="/images/phoneLogo.svg" alt="Phone logo">
+        </div>
+    </div>
+</footer>
+<script src="index.js" type="text/javascript"></script>
 
+</section>
+</body>
+
+
+
+
+
+<!--
 <footer> 
     <div class="footerLogo">
     <img class="logo" src="/OpenSpace/images/logoBWvertical.jpg">
@@ -137,12 +310,13 @@
         </div>
     </div>
 </section>
+</section>
 </footer>
 
 </body>
 
 </html>
-
+-->
 
 
 
@@ -243,7 +417,6 @@
         </div>
 </section>
     
-</section>
-</body>
+
 -->
 

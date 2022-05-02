@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="twitterLogo" transform="translate(0.186 -0.094)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="35" height="35" rx="17.5" transform="translate(-0.186 0.094)" fill="#fff"/>
+    <g id="Icon_ICON_feather_twitter_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE3_" data-name="Icon [ICON=feather/twitter][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE3]" transform="translate(10.12 10.621)">
+      <rect id="Area_ICON:feather_twitter_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/twitter][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="15" height="14" transform="translate(-0.306 -0.027)" fill="#2e398c" opacity="0"/>
+      <g id="Icon" transform="translate(0 1.333)">
+        <path id="_29f8de33-81ee-401a-91ee-a16b13fcaae6" data-name="29f8de33-81ee-401a-91ee-a16b13fcaae6" d="M15.367,2.724A7.155,7.155,0,0,1,13.3,3.73,2.945,2.945,0,0,0,8.138,5.7v.658A7.006,7.006,0,0,1,2.223,3.382S-.405,9.3,5.51,11.926a7.656,7.656,0,0,1-4.6,1.314c5.915,3.286,13.144,0,13.144-7.558A2.932,2.932,0,0,0,14,5.137,5.072,5.072,0,0,0,15.367,2.724Z" transform="translate(-0.909 -2.718)" fill="#2e398c"/>
+      </g>
+    </g>
+  </g>
+</svg>

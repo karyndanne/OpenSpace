@@ -1,30 +1,371 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif;*/
+/*
 .body {
     background-image: url("/OpenSpace/images/");
     background-size: 100%;
     background-repeat: no-repeat;
-}
-
+} */
 .buttonPrimary {
-    background-color: blue;
+    background-color: #13278A;
     color: #FAFAFA;
+    height: 38px;
+    width: 150px;
+    font-size: 16px;
+    padding: 4px;
     text-align: center;
     border-radius: 4px;
-    width: 100px;
-    height: 20px;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
-
 .buttonSecondary {
-    height: 20px;
-    font-size: 14px;
-    color: #f6f6f8;
-    padding: 10px;
+    background-color: #FFFFFF;
+    color: #2B3991;
+    height: 38px;
+    width: 150px;
+    font-size: 16px;
+    padding: 4px;
     text-align: center;
-    text-justify: center;
-    background-color: transparent;
-    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: #F1B48F;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+/* Navbar CSS*/
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: auto;
+}
+.navBarIcons {
+    display: grid;
+    height: auto;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    justify-content: center;
+}
+.navBarLogo {
+    padding: 15px;
+}
+.navButton {
+    color: #13278A;
+}
+a {
+    text-decoration: none;
+    color: #13278A;
+    font-family: 'Poppins', sans-serif;
+}
+/* Hero CSS */
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-content: center; 
+    background-image: linear-gradient(to right, #FFCEC6 , #FFDBED); 
+    border-radius: 28px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 50px;
+    height: auto;
+}
+.heroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroImg {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+#heroText {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    color: #13278A;
+}
+#heroBody {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #13278A;
+}
+#searchBar {
+    border-radius: 4px;
+    padding: 5px;
+    margin: 15px;
+    width: auto
 }
 
+/* search bar code */
+*, *::before, *::after { box-sizing: border-box; }
+
+.product-search {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: rgba(0,0,0,.172549) 0 6px 12px 0;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 57px;
+  margin-bottom: 79px;
+}
+
+.search-element {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+  border-right: 1px solid rgba(10,10,10,.1);
+  padding: 1em;
+}
+
+.search-label {
+  font-weight: 700;
+}
+
+.search-input {
+  border: none;
+  appearance: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-top: 5px;
+}
+
+.search-input:focus {
+  box-shadow: 0px 2px 0px 0px gray;
+}
+
+.search-button {
+  display: inline-block;
+  flex-grow: 1;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 2em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 100;
+  border: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  transition: background-color 0.8s ease;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.search-button:hover {
+  background-color: HSLA(8, 100%, 89%, 1.00);
+}
+
+/*What we do*/
+#whatWeDoHeaderText {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+.WWDIcon {
+    height: 400px;
+    text-align: center;
+}
+.WWDHead{
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 36px;
+    text-align: center;
+}
+.WWDBody {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 25px;
+    text-align: center;
+}
+.whatWeDo {
+    display: flex;
+    flex-direction: column;
+}
+.whatWeDoDivs {
+    display: flex;
+    justify-content: center;
+}
+.WWDDivs {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Featured Spaces CSS*/
+.featSpacHead {
+    display: flex;
+    justify-content: start;
+}
+.featSpacImg {
+    display: flex;
+    justify-content: center;
+}
+.featSpacButton {
+    display: flex;
+    justify-content: flex-end;
+}
+.featuredSpaces {
+    width: 80%; 
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#featSpacHeadText {
+    width: auto;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    color: #13278A;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+/* App Section */
+.appsText {
+    background-image: url(/images/everywhereBackgroundLines.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.apps {
+    display: flex;
+    margin: 100px;
+}
+
+#ATHText {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 41px;
+    color: #13278A;
+}
+#ATHBody {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    color: #13278A;
+    width: 80%;
+}/*Customer Reviews CSS*/
+.customerReviews {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.reviewCard {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reviewName {
+    display: flex;
+    align-items: center;
+}
+#RNHImg {
+    height: 100%;
+    margin-left: 15px;
+}
+#RNHead {
+    font-family: 'poppins', sans-serif;
+    margin-right: 15px;
+    color: #13278A;
+    font-size: 22px;
+}
+#RBBody {
+    width: 90%;
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 20px;
+}
+.reviewDots {
+    margin-right: 20px;
+}
+.reviewPicture {
+    margin-left: 20px;
+}
+
+/* Footer CSS */
+.footer {
+    background-color: #FFCEC6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footerBody {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    color: #13278A;
+}
+.footerDiv {
+    width: 25%;
+}
+.footerIcons {
+    font-size: 19px;
+    text-align: left;
+}
+.navButtonFooter {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 19px;
+}
+.footerRight {
+    display: flex;
+    flex-direction: column;
+}
+#FRHead {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    color: #13278A;
+    font-size: 18px;
+}
+#FRAddress {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 16px;
+}
+.socialIcons  {
+    display: flex;
+}
+.socialIconsIndv {
+    margin-left: 9px;
+}
+
+
+
+/*
+.hero {
+    width: 1200px;
+    /* background-image: placeholder;
+    
+    margin-top: 15px;
+
+    display: flex;
+}*/
+
+
+/*
 .btnBlock {
     background-color:transparent;
     width: 1200px;
@@ -37,7 +378,6 @@
     width: 100%;
     height: 10vh;
     background-color: purple;
-
 }
 
 .navigation {
@@ -56,15 +396,6 @@
     align-self: flex-end;
 }
 
-.hero {
-    width: 1200px;
-    height: 85vh;
-    /* background-image: placeholder; */
-    background-color: pink; 
-    margin-left:auto;
-    margin-right: auto;
-    display: flex;
-}
 
 .heroContent {
     background-color: #f6f6f8;
@@ -99,9 +430,6 @@
     height: 80%;
     background-color: purple;
     }
-
-
-
 
 .weDo {
     width: 1200px;
@@ -150,10 +478,6 @@
     background-repeat: no-repeat ;
     background-size: cover;
 }
-
-
-
-
 
 .featuredSpaces {
     width: 1200px;
@@ -217,15 +541,10 @@
     align-self: flex-end;
 }
 
-
-
-
-
-
 .apps {
     width: 1280px;
     height: 75vh;
-    /* background-image: url("images/syed.jpg"); */
+     background-image: url("images/syed.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     margin-left:auto;
@@ -259,11 +578,6 @@
     text-align: center;
     color: blue;
 }
-
-
-
-
-
 
 .customerReviews {
     width: 1280px;
@@ -309,14 +623,6 @@
         justify-content: center;
         align-items: flex-start;
     }
-
-
-
-
-
-
-
-
 
     .footer {
         background-color: orange;
@@ -376,11 +682,6 @@
         cursor: pointer;
         border-radius: 0;
     }
-    
-
-
-
-/*
 
 .myCarousel {
     width: 1440px;
@@ -480,21 +781,3 @@ color: black;
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

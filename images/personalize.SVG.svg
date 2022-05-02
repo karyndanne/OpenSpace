@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="242" height="242" viewBox="0 0 242 242">
+  <defs>
+    <filter id="Rectangle_7" x="0" y="0" width="242" height="242" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="24" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="27" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_588" data-name="Group 588" transform="translate(-633 -1011)">
+    <g transform="matrix(1, 0, 0, 1, 633, 1011)" filter="url(#Rectangle_7)">
+      <rect id="Rectangle_7-2" data-name="Rectangle 7" width="80" height="80" rx="40" transform="translate(71 57)" fill="#fff"/>
+    </g>
+    <g id="Headphone" transform="translate(728 1087.822)">
+      <rect id="Headphone_Background_Mask_" data-name="Headphone (Background/Mask)" width="32" height="32.896" fill="none"/>
+    </g>
+    <path id="compare" d="M42.15,8.389H26.8V5.319A3.069,3.069,0,0,0,23.735,2.25H5.319A3.069,3.069,0,0,0,2.25,5.319V36.012a3.069,3.069,0,0,0,3.069,3.069H20.666V42.15a3.069,3.069,0,0,0,3.069,3.069H42.15A3.069,3.069,0,0,0,45.22,42.15V11.458A3.069,3.069,0,0,0,42.15,8.389ZM5.319,22.2h9.468l-3.959,3.975,2.163,2.163,7.673-7.673-7.673-7.673-2.163,2.163,3.959,3.975H5.319V5.319H23.735V36.012H5.319ZM23.735,42.15V39.081A3.069,3.069,0,0,0,26.8,36.012V11.458H42.15V25.269H32.682l3.959-3.975-2.163-2.163L26.8,26.8l7.673,7.673,2.163-2.163-3.959-3.975H42.15V42.15Z" transform="translate(719.558 1082.386)" fill="#2b3991"/>
+  </g>
+</svg>
