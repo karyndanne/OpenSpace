@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="linkedinLogo" transform="translate(0.621 -0.094)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="35" height="35" rx="17.5" transform="translate(-0.621 0.094)" fill="#fff"/>
+    <g id="Icon_ICON_feather_linkedin_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE3_" data-name="Icon [ICON=feather/linkedin][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE3]" transform="translate(9.892 10.121)">
+      <rect id="Area_ICON:feather_linkedin_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/linkedin][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="14" height="14" transform="translate(0.487 -0.027)" fill="#2b3991" opacity="0"/>
+      <g id="Icon" transform="translate(0.229 0.361)">
+        <path id="_4eb98e8d-c722-47cc-a537-679e2e6c76d4" data-name="4eb98e8d-c722-47cc-a537-679e2e6c76d4" d="M14.337,8a4.337,4.337,0,0,1,4.337,4.337V17.4H15.783v-5.06a1.446,1.446,0,0,0-2.892,0V17.4H10v-5.06A4.337,4.337,0,0,1,14.337,8Z" transform="translate(-4.217 -3.663)" fill="#2b3991"/>
+        <rect id="_7268a64d-5b66-4bf0-a1ea-cdfd964c6d74" data-name="7268a64d-5b66-4bf0-a1ea-cdfd964c6d74" width="2.892" height="8.675" transform="translate(0 5.06)" fill="#2b3991"/>
+        <circle id="_007aa9be-4fd5-42b2-b45d-1601ebb5063f" data-name="007aa9be-4fd5-42b2-b45d-1601ebb5063f" cx="1.446" cy="1.446" r="1.446" fill="#2b3991"/>
+      </g>
+    </g>
+  </g>
+</svg>

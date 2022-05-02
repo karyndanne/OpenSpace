@@ -65,10 +65,26 @@
                 <img src="/images/heroImg.png" alt="Hero Image">
             </div>
         </div>
+        <!-- search bar -->
         <div class="searchBarHome">
-            <input id="searchBar" type="text" placeholder="Location | Date | Budget">
+            <form action="" method="get">
+                <div class="product-search">
+                    <div class="search-element">
+                      <label class="search-label">Location</label>
+                      <input class="search-input" type="text" autocomplete="on" placeholder="Where's the party?" name="query">
+                    </div>
+                    <div class="search-element">
+                      <label class="search-label">Dates</label>
+                      <input class="search-input" type="text" placeholder="When is it?" class="" autocomplete="on" name="location">
+                    </div>
+                    <div class="search-element">
+                        <label class="search-label">Budget</label>
+                        <input class="search-input" type="text" placeholder="What's our budget?" class="" autocomplete="on" name="location">
+                      </div>
+                    <a type="submit" class="search-button"><img src="/images/search.svg" alt="Search Icon"></a>
+                </div>
+              </form>
         </div>
-        <img src="/images/searchBar.svg" alt="searchBar">
     </Section>
 
 <!--<section class="hero">
@@ -86,17 +102,17 @@
         </div>
         <div class="whatWeDoDivs">
             <div class="WWDDivs" id="personalize">
-                <img class="WWDIcon" src="/images/personalize.png" alt="personalize icon">
+                <img class="WWDIcon" src="/images/compare.SVG.svg" alt="personalize icon">
                 <h2 class="WWDHead">Personalize</h2>
                 <p class="WWDBody">Personalize your search</p>
             </div>
             <div class="WWDDivs" id="comparison">
-                <img class="WWDIcon" src="/images/compare.png" alt="comparison icon">
+                <img class="WWDIcon" src="/images/personalize.SVG.svg" alt="comparison icon">
                 <h2 class="WWDHead">Comparison</h2>
                 <p class="WWDBody">Compare your matches</p>
             </div>
             <div class="WWDDivs" id="book">
-                <img class="WWDIcon" src="/images/book.png" alt="book icon">
+                <img class="WWDIcon" src="/images/book.SVG.svg" alt="book icon">
                 <h2 class="WWDHead">Book</h2>
                 <p class="WWDBody">Book your venue</p>
             </div>
@@ -126,7 +142,7 @@
         </div>
     </section>-->
 
- <!-- Feature Spaces -->
+    <!-- Feature Spaces -->
 <section class="featuredSpaces">
     <div class="featSpacHead">
         <h1 id="featSpacHeadText">Featured Spaces</h1>
@@ -155,7 +171,7 @@
     <div class="button"> Browse More </div>
 </section> -->
 
-<!-- Apps -->
+    <!-- Apps -->
 <section class="apps">
     <div class="appsImage">
         <img src="/images/everywhereAllTheTime.svg" alt="apps">
@@ -188,7 +204,7 @@
 </section>
 -->
 
-<!-- Customer Reviews-->
+    <!-- Customer Reviews-->
 <section class="customerReviews">
     <div class="reviewCard">
         <div class="reviewPicture">
@@ -234,7 +250,7 @@
                 </div>
         </div>
 </section>-->
- <!-- Footer HTML -->
+    <!-- Footer HTML -->
 <footer class="footer">
     <div class="footerLeft footerDiv">
         <img id="footerLogo" src="/images/logoNavBar.png" alt="Logo Footer">
@@ -258,9 +274,23 @@
         <h4 id="FRHead">Contact</h4>
         <h5 id="FRAddress">123 Peach Street, Atlanta Georgia</h5>
         <input id="searchBar" type="text" placeholder="Your Email">
-        <img src="/images/socialIcons.png" alt="Social Icons">
+        <div class="socialIcons">
+            <img class="socialIconsIndv" src="/images/facebookLogo.svg" alt="Facebook logo">
+            <img class="socialIconsIndv" src="/images/twitterLogo.svg" alt="Twitter logo">
+            <img class="socialIconsIndv" src="/images/linkedinLogo.svg" alt="Linkedin logo">
+            <img class="socialIconsIndv" src="/images/youtubeLogo.svg" alt="Youtube logo">
+            <img class="socialIconsIndv" src="/images/phoneLogo.svg" alt="Phone logo">
+        </div>
     </div>
 </footer>
+<script src="index.js" type="text/javascript"></script>
+
+</section>
+</body>
+
+
+
+
 
 <!--
 <footer> 
@@ -387,7 +417,6 @@
         </div>
 </section>
     
-</section>
-</body>
+
 -->
 

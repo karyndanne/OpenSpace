@@ -42,7 +42,6 @@ font-family: 'Poppins', sans-serif;*/
     align-content: center;
     width: 100%;
     height: auto;
-    padding-bottom: 15px;
 }
 .navBarIcons {
     display: grid;
@@ -105,6 +104,73 @@ a {
     padding: 5px;
     margin: 15px;
     width: auto
+}
+
+/* search bar code */
+*, *::before, *::after { box-sizing: border-box; }
+
+.product-search {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: rgba(0,0,0,.172549) 0 6px 12px 0;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 57px;
+  margin-bottom: 79px;
+}
+
+.search-element {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+  border-right: 1px solid rgba(10,10,10,.1);
+  padding: 1em;
+}
+
+.search-label {
+  font-weight: 700;
+}
+
+.search-input {
+  border: none;
+  appearance: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-top: 5px;
+}
+
+.search-input:focus {
+  box-shadow: 0px 2px 0px 0px gray;
+}
+
+.search-button {
+  display: inline-block;
+  flex-grow: 1;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 2em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 100;
+  border: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  transition: background-color 0.8s ease;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.search-button:hover {
+  background-color: HSLA(8, 100%, 89%, 1.00);
 }
 
 /*What we do*/
@@ -278,6 +344,12 @@ a {
     font-family: 'poppins', sans-serif;
     color: #13278A;
     font-size: 16px;
+}
+.socialIcons  {
+    display: flex;
+}
+.socialIconsIndv {
+    margin-left: 9px;
 }
 
 

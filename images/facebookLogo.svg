@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="facebookLogo" transform="translate(0.256 -0.094)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="35" height="35" rx="17.5" transform="translate(-0.256 0.094)" fill="#fff"/>
+    <g id="Icon_ICON_feather_facebook_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE3_" data-name="Icon [ICON=feather/facebook][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE3]" transform="translate(10.121 10.121)">
+      <rect id="Area_ICON:feather_facebook_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/facebook][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="15" height="14" transform="translate(-0.377 -0.027)" fill="#2e398c" opacity="0"/>
+      <g id="Icon" transform="translate(3.253)">
+        <path id="fe6178a9-9982-4563-8cc2-3f146a0ee69c" d="M14.952,2H12.783A3.615,3.615,0,0,0,9.169,5.615V7.783H7v2.892H9.169v5.783H12.06V10.675h2.169l.723-2.892H12.06V5.615a.723.723,0,0,1,.723-.723h2.169Z" transform="translate(-7 -2)" fill="#2e398c"/>
+      </g>
+    </g>
+  </g>
+</svg>

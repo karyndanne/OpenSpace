@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="youtubeLogo" transform="translate(0.422 -0.094)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="35" height="35" rx="17.5" transform="translate(-0.423 0.094)" fill="#fff"/>
+    <g id="Icon_ICON_feather_youtube_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE3_" data-name="Icon [ICON=feather/youtube][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE3]" transform="translate(10.019 10.121)">
+      <rect id="Area_ICON:feather_youtube_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/youtube][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="15" height="14" transform="translate(-0.441 -0.027)" fill="#2b3991" opacity="0"/>
+      <g id="Icon" transform="translate(0.102 2.149)">
+        <path id="_6309913a-8a0b-45d8-8331-f8c994ab7df1" data-name="6309913a-8a0b-45d8-8331-f8c994ab7df1" d="M15.064,5.226a1.827,1.827,0,0,0-1.275-1.314,47.3,47.3,0,0,0-5.652-.276,43.25,43.25,0,0,0-5.651.3A1.828,1.828,0,0,0,1.211,5.252a19.07,19.07,0,0,0-.3,3.477,19.086,19.086,0,0,0,.3,3.5,1.829,1.829,0,0,0,1.275,1.262,43.249,43.249,0,0,0,5.651.3,43.265,43.265,0,0,0,5.652-.3,1.828,1.828,0,0,0,1.275-1.314,19.175,19.175,0,0,0,.3-3.45A19.1,19.1,0,0,0,15.064,5.226Z" transform="translate(-0.908 -3.636)" fill="#2b3991"/>
+        <path id="_4042f847-c6ac-45ed-b37d-8ad7bd1017a5" data-name="4042f847-c6ac-45ed-b37d-8ad7bd1017a5" d="M8.863,12.007l3.779-2.149L8.863,7.709Z" transform="translate(-3.113 -4.765)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
